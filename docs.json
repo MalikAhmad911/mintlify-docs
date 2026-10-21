@@ -190,6 +190,25 @@
               "integrations/request-form",
               "integrations/wordpress-plugin"
             ]
+          },
+          {
+            "group": "Team and account",
+            "pages": [
+              "team/invite-teammates",
+              "team/roles-and-permissions",
+              "account/business-profile",
+              "account/notifications",
+              "account/security-and-data"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "billing/plans-and-trial",
+              "billing/change-plan",
+              "billing/cancel",
+              "billing/payment-method-and-history"
+            ]
           }
         ]
       }
