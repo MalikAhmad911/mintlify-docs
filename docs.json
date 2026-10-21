@@ -73,6 +73,21 @@
               "ai/ai-booking",
               "ai/ai-credits"
             ]
+          },
+          {
+            "group": "Unified inbox",
+            "pages": [
+              "inbox/overview",
+              "inbox/start-a-conversation",
+              "inbox/reply",
+              "inbox/assign-and-organize",
+              "inbox/contact-panel",
+              "inbox/canned-responses",
+              "inbox/connect-email",
+              "inbox/whatsapp-instagram",
+              "inbox/website-chat-widget",
+              "inbox/opt-outs"
+            ]
           }
         ]
       }
