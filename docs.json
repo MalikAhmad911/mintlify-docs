@@ -132,6 +132,18 @@
               "quotes/customer-approval",
               "quotes/quote-to-job"
             ]
+          },
+          {
+            "group": "Payments",
+            "pages": [
+              "payments/overview",
+              "payments/request-a-payment",
+              "payments/pay-page",
+              "payments/invoices",
+              "payments/recurring-invoices",
+              "payments/payment-reminders",
+              "payments/refunds-and-cancellations"
+            ]
           }
         ]
       }
