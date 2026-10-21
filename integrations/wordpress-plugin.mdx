@@ -1,0 +1,51 @@
+---
+title: "Revenue Sol WordPress plugin: forms and chat"
+sidebarTitle: "WordPress plugin"
+description: "Install the Revenue Sol Forms & Chat plugin to add your lead form and website chat to WordPress with a shortcode, the block editor or Elementor, or replace Contact Form 7."
+keywords: ["WordPress CRM plugin", "lead form WordPress", "replace Contact Form 7", "Elementor lead form", "website chat WordPress"]
+---
+
+The **Revenue Sol — Forms & Chat** plugin adds your lead form and the website chat widget to any WordPress site. Every form submission becomes a lead in Revenue Sol, and chat messages land in your [Inbox](/inbox/overview).
+
+## Install
+
+<Steps>
+  <Step title="Download the plugin">
+    In Revenue Sol, go to **Settings → Connected Apps**. On the **Website** card, under **WordPress / Elementor plugin**, click **Download WordPress plugin**.
+  </Step>
+  <Step title="Upload it to WordPress">
+    In WordPress, go to **Plugins → Add New → Upload Plugin**, upload the file, click **Install Now**, then **Activate**.
+  </Step>
+  <Step title="Add your form link">
+    In WordPress, open **Settings → Revenue Sol**. In Revenue Sol, copy the last part of **Your public link** from the **Request Service Form** section of the **Website** card (for example `acme-plumbing`) and paste it into **Your form link**.
+  </Step>
+  <Step title="Turn on chat (optional)">
+    Paste the **API Key** from the **Website** card into **Website chat widget — API key**. The chat bubble then appears on every page. Leave it blank to keep chat off.
+  </Step>
+  <Step title="Save">
+    A live preview appears at the bottom of the settings page.
+  </Step>
+</Steps>
+
+## Add the form to a page
+
+| Editor | How |
+| --- | --- |
+| Any page builder | Add the shortcode `[revenuesol_form]` |
+| Block editor | Add a **Shortcode** block and paste `[revenuesol_form]` |
+| Elementor | Drag a **Shortcode** widget and paste `[revenuesol_form]` |
+
+## Replace Contact Form 7
+
+Turn on **Replace Contact Form 7** in the plugin settings, and every existing `[contact-form-7]` form on your site is swapped for your Revenue Sol form, with no page edits needed.
+
+Other form plugins, such as WPForms, Gravity Forms or native Elementor forms, aren't replaced automatically. Add `[revenuesol_form]` where you want the form instead.
+
+## Options
+
+- **Form height (px)**: how tall the form is on the page.
+- Shortcode attributes: `[revenuesol_form slug="acme-plumbing" height="820"]` shows a specific form at a set height.
+
+<Note>
+  The form is hosted and protected by Revenue Sol, with spam protection and rate limits.
+</Note>

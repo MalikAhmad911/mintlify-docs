@@ -172,6 +172,24 @@
               "automations/create-an-automation",
               "automations/triggers-and-actions"
             ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "analytics/overview",
+              "analytics/web-analytics",
+              "analytics/ai-search",
+              "analytics/weekly-reports"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/quickbooks",
+              "integrations/request-form",
+              "integrations/wordpress-plugin"
+            ]
           }
         ]
       }
