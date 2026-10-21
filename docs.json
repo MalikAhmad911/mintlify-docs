@@ -100,6 +100,38 @@
               "contacts/sales-pipeline",
               "contacts/export"
             ]
+          },
+          {
+            "group": "Calendar and booking",
+            "pages": [
+              "calendar/overview",
+              "calendar/new-appointment",
+              "calendar/appointment-types",
+              "calendar/availability",
+              "calendar/online-booking",
+              "calendar/reminders"
+            ]
+          },
+          {
+            "group": "Jobs and dispatch",
+            "pages": [
+              "jobs/overview",
+              "jobs/create-a-job",
+              "jobs/recurring-jobs",
+              "jobs/dispatch-board",
+              "jobs/invoice-a-job",
+              "jobs/price-book",
+              "jobs/import-jobs"
+            ]
+          },
+          {
+            "group": "Quotes",
+            "pages": [
+              "quotes/overview",
+              "quotes/create-and-send",
+              "quotes/customer-approval",
+              "quotes/quote-to-job"
+            ]
           }
         ]
       }
