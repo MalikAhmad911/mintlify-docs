@@ -209,6 +209,12 @@
               "billing/cancel",
               "billing/payment-method-and-history"
             ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "faq"
+            ]
           }
         ]
       }
