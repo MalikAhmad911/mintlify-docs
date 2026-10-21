@@ -1,0 +1,64 @@
+---
+title: "Connect Twilio to Revenue Sol"
+sidebarTitle: "Connect Twilio"
+description: "Connect your Twilio account to Revenue Sol in a few clicks, choose a default number and test it. Webhooks for texts and calls are set up for you."
+keywords: ["connect Twilio", "Twilio CRM integration", "Twilio SMS CRM", "Revenue Sol Twilio"]
+---
+
+Connecting Twilio lets Revenue Sol send and receive texts and calls on your Twilio number, text back missed calls and run the AI receptionist.
+
+<Note>
+  You need a Twilio account with at least one phone number. Don't have one yet? See [Get a Twilio number](/phone/get-a-twilio-number).
+</Note>
+
+## Connect your account
+
+<Steps>
+  <Step title="Open Connectors">
+    In Revenue Sol, go to **Settings → Connectors** and open **Twilio**.
+  </Step>
+  <Step title="Click Connect Twilio">
+    Click **Connect Twilio**. You're taken to Twilio to sign in and approve access for your workspace.
+  </Step>
+  <Step title="Approve access in Twilio">
+    Sign in to Twilio and approve the connection. You come back to Revenue Sol and see **Twilio connected**.
+  </Step>
+  <Step title="Choose a default number">
+    Your Twilio numbers sync automatically. Under **Choose a default number**, pick the number customers will text and call.
+
+    When you save it, Revenue Sol sets up the number's text and call webhooks for you and shows **Default Twilio number saved and webhooks configured**.
+  </Step>
+  <Step title="Test the connection">
+    Click **Test Connection**. Then send yourself a text from the **Inbox** to make sure it arrives.
+  </Step>
+</Steps>
+
+## What you'll see on the Twilio page
+
+| Item | What it means |
+| --- | --- |
+| **Integration status** | Whether Twilio is connected. |
+| **Connected account** | The Twilio account linked to this workspace (partly hidden for security). |
+| **Default Twilio number** | The number used for texts and calls. |
+| **Numbers** | Every number in your Twilio account, with SMS, MMS and Voice capabilities. |
+| **Webhook status** | Whether text and call routing is set up on the default number. |
+| **Last sync** | When the number list was last refreshed. |
+
+## Added a number in Twilio later?
+
+Click **Refresh Numbers** on the Twilio page so the new number shows up, then choose it as your default if you want to use it.
+
+## Reconnecting
+
+If Twilio shows an error or you changed your Twilio login, click **Reconnect** to refresh the connection. Your settings and history stay as they are.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Register for A2P 10DLC" icon="shield-check" href="/phone/a2p-10dlc">
+    Needed to text US customers reliably.
+  </Card>
+  <Card title="Turn on missed-call follow-up" icon="phone-missed" href="/phone/missed-call-text-back">
+    Text back every caller you miss.
+  </Card>
+</CardGroup>

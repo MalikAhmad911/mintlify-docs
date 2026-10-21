@@ -1,0 +1,50 @@
+---
+title: "Texts or calls not working? Fix phone issues"
+sidebarTitle: "Test and troubleshoot"
+description: "Fix the most common phone problems in Revenue Sol: texts not delivered, Connect Twilio messages, webhooks that need attention, calls not ringing and A2P 10DLC filtering."
+keywords: ["SMS not sending", "texts not delivered", "Twilio not working", "calls not ringing CRM", "connect Twilio before sending SMS"]
+---
+
+## Test your setup
+
+<Steps>
+  <Step title="Test the connection">
+    In **Settings → Connectors**, open your provider and click **Test Connection**.
+  </Step>
+  <Step title="Text yourself">
+    Add yourself as a contact and send a text from the **Inbox**. Reply from your phone to check incoming texts too.
+  </Step>
+  <Step title="Call yourself">
+    Call your business number from your cell. The call should appear in **Calls**.
+  </Step>
+</Steps>
+
+## Common problems
+
+<AccordionGroup>
+  <Accordion title="&quot;SMS could not be delivered: Connect Twilio before sending SMS&quot;">
+    No phone number is connected yet, so the text stayed in Revenue Sol. [Connect Twilio](/phone/connect-twilio) or [RingCentral](/phone/connect-ringcentral), then send it again.
+  </Accordion>
+  <Accordion title="Texts send but customers don't get them">
+    The most common cause is missing [A2P 10DLC registration](/phone/a2p-10dlc). US carriers filter business texts from unregistered local numbers. Also check the customer hasn't replied **STOP**.
+  </Accordion>
+  <Accordion title="Webhook status shows a problem">
+    Open your provider in **Settings → Connectors**. For Twilio, choose your default number again so the webhooks are set up. For RingCentral, use the repair option on the panel.
+  </Accordion>
+  <Accordion title="Incoming texts or calls don't show up">
+    Make sure the number customers use is the **default number** in Revenue Sol. Then click **Refresh Numbers** (Twilio) and **Sync calls** in **Calls**.
+  </Accordion>
+  <Accordion title="Twilio trial account">
+    Twilio trial accounts only reach numbers you've verified in Twilio. Upgrade your Twilio account to text and call customers.
+  </Accordion>
+  <Accordion title="Calls from the browser have no audio">
+    Allow microphone access for app.revenuesol.com in your browser settings, then try again.
+  </Accordion>
+  <Accordion title="Missed calls aren't getting a text back">
+    Check that **Autopilot** and **Missed-call follow-up** are both on in **AI Brain**, and whether Autopilot business hours are limiting when it runs. See [Missed-call text back](/phone/missed-call-text-back).
+  </Accordion>
+</AccordionGroup>
+
+## Still stuck?
+
+Email [contact@revenuesol.com](mailto:contact@revenuesol.com) with your business name and what you see on screen, and we'll help you set it up.
