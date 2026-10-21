@@ -1,0 +1,57 @@
+---
+title: "Create an automation"
+sidebarTitle: "Create an automation"
+description: "Build an automation in Revenue Sol: choose a trigger, add conditions like contact stage, tag or business hours, set a delay, and pick an action such as Send SMS or an AI follow-up."
+keywords: ["create automation", "automation rules", "trigger and action", "automated SMS rule", "AI follow up automation"]
+---
+
+"Build a business-friendly rule without writing technical prompts." In **Automations**, click **Create Automation**.
+
+<Steps>
+  <Step title="Name it">
+    Give it an **Automation Name**, such as "Text new leads."
+  </Step>
+  <Step title="Choose the trigger">
+    Pick when it runs. See [Triggers and actions](/automations/triggers-and-actions).
+  </Step>
+  <Step title="Add conditions (optional)">
+    Narrow it down with **Contact Stage**, **Contact Tag** or **Payment amount above**, and tick **Business hours only** to keep it inside your working hours.
+  </Step>
+  <Step title="Add a delay (optional)">
+    Use **Delay before running** to wait before acting, for example 10 minutes after a new lead.
+  </Step>
+  <Step title="Choose the action">
+    Pick what it does, such as **Send SMS**, and write the **Message Template**.
+  </Step>
+  <Step title="Let AI write it (optional)">
+    Turn on **Use AI Agent** to "let an Infinite Agent write or adapt the message," and choose an **AI Behavior**, such as **Write short reply** or **Escalate if unsure**.
+  </Step>
+  <Step title="Check and turn it on">
+    Review the **Validation checklist**, switch on **Automation active** and save.
+  </Step>
+</Steps>
+
+<Tip>
+  Start with one simple automation, watch it in **History** for a few days, then add more.
+</Tip>
+
+## Placeholders in messages
+
+Use these in a **Message Template**. Revenue Sol fills them in for each contact:
+
+| Placeholder | Becomes |
+| --- | --- |
+| `{first_name}` | The contact's first name ("there" if unknown) |
+| `{last_name}` | The contact's last name |
+| `{business_name}` | Your business name |
+| `{phone}` | Your business phone number |
+| `{amount}` | The payment amount, for payment triggers |
+| `{invoice_link}` | The payment link, for payment triggers |
+| `{booking_link}` | Your online booking page |
+| `{review_link}` | Your Google review link, when one is saved |
+
+For example: "Hi {first_name}, thanks for choosing {business_name}! Book your next visit here: {booking_link}"
+
+## Turn off or delete
+
+Switch off **Active** to pause an automation. Use **Delete** to remove it.

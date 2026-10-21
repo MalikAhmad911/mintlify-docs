@@ -155,6 +155,23 @@
               "reviews/reply-with-ai",
               "reviews/reviews-widget"
             ]
+          },
+          {
+            "group": "Campaigns",
+            "pages": [
+              "marketing/sms-campaigns",
+              "marketing/ab-testing",
+              "marketing/campaign-results"
+            ]
+          },
+          {
+            "group": "Automations",
+            "pages": [
+              "automations/overview",
+              "automations/templates",
+              "automations/create-an-automation",
+              "automations/triggers-and-actions"
+            ]
           }
         ]
       }
