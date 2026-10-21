@@ -144,6 +144,17 @@
               "payments/payment-reminders",
               "payments/refunds-and-cancellations"
             ]
+          },
+          {
+            "group": "Reviews",
+            "pages": [
+              "reviews/overview",
+              "reviews/connect-google",
+              "reviews/send-review-requests",
+              "reviews/automatic-review-requests",
+              "reviews/reply-with-ai",
+              "reviews/reviews-widget"
+            ]
           }
         ]
       }
