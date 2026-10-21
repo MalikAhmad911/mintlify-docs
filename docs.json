@@ -55,6 +55,24 @@
               "phone/troubleshooting",
               "phone/disconnect-or-switch"
             ]
+          },
+          {
+            "group": "AI Employee and AI receptionist",
+            "pages": [
+              "ai/overview",
+              "ai/ai-brain",
+              "ai/ai-features",
+              "ai/approvals",
+              "ai/activity-log",
+              "ai/persona",
+              "ai/knowledge-hub",
+              "ai/qa-pairs",
+              "ai/ai-analytics",
+              "ai/connect-retell",
+              "ai/voice-agent",
+              "ai/ai-booking",
+              "ai/ai-credits"
+            ]
           }
         ]
       }

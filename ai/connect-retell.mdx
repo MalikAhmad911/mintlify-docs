@@ -1,0 +1,53 @@
+---
+title: "Connect Retell AI for your AI receptionist"
+sidebarTitle: "Connect Retell"
+description: "Connect your Retell AI account to Revenue Sol so your AI receptionist can answer calls: add your API key, choose a default agent and number, and copy the webhook details."
+keywords: ["Retell AI integration", "connect Retell", "AI phone agent setup", "AI receptionist setup", "Retell CRM"]
+---
+
+Revenue Sol's AI receptionist runs on your own [Retell AI](https://www.retellai.com) account. Retell bills you directly for voice minutes.
+
+<Note>
+  The AI receptionist is included on **Professional** and up. You also need a connected [Twilio number](/phone/connect-twilio).
+</Note>
+
+## Before you start
+
+1. Create an account at [retellai.com](https://www.retellai.com).
+2. In Retell, create an agent for your business. Note its **Agent ID** (it starts with `agent_`).
+3. Copy your Retell **API key** from the Retell dashboard.
+
+## Connect Retell to Revenue Sol
+
+<Steps>
+  <Step title="Open Retell AI">
+    Go to **Settings → Connectors** and open **Retell AI**.
+  </Step>
+  <Step title="Add your API key">
+    Paste your **Retell API Key** and save. **Integration status** shows when the connection works.
+  </Step>
+  <Step title="Choose your default agent">
+    Click **Sync agents to choose**, then pick your **Default Retell agent**. You can also paste **Your Retell Agent ID**.
+  </Step>
+  <Step title="Choose your default number">
+    Click **Sync numbers to choose**, then pick the **Default Retell number** that should be answered by the AI.
+  </Step>
+  <Step title="Copy the webhook details into Retell">
+    Under **Webhook credentials**, copy the **Webhook URL** into your Retell agent's webhook setting. A **Webhook Secret** is generated for you if you leave it empty. This lets Revenue Sol log every AI call.
+  </Step>
+</Steps>
+
+## Route your Twilio number to the AI
+
+Open **AI receptionist setup** to "prepare the selected Twilio number to route toward the default Retell AI agent." Follow the **Setup steps** shown there. If your setup needs it, the page also shows the details for **Manual SIP setup**.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Set up your Voice Agent" icon="phone-volume" href="/ai/voice-agent">
+    Name, greeting, instructions and a test call.
+  </Card>
+  <Card title="Let the AI book appointments" icon="calendar-plus" href="/ai/ai-booking">
+    Book jobs straight into your calendar during a call.
+  </Card>
+</CardGroup>
