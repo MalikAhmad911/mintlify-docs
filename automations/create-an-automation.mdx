@@ -44,13 +44,15 @@ Use these in a **Message Template**. Revenue Sol fills them in for each contact:
 | `{first_name}` | The contact's first name ("there" if unknown) |
 | `{last_name}` | The contact's last name |
 | `{business_name}` | Your business name |
-| `{phone}` | Your business phone number |
+| `{phone}` | The contact's phone number |
 | `{amount}` | The payment amount, for payment triggers |
 | `{invoice_link}` | The payment link, for payment triggers |
-| `{booking_link}` | Your online booking page |
+| `{booking_link}` | A booking link, when the trigger has one |
 | `{review_link}` | Your Google review link, when one is saved |
 
-For example: "Hi {first_name}, thanks for choosing {business_name}! Book your next visit here: {booking_link}"
+For example: "Hi {first_name}, thanks for choosing {business_name}! Reply here if you need anything."
+
+A placeholder with nothing to fill in is left out, so customers never see raw `{placeholder}` text.
 
 ## Turn off or delete
 
