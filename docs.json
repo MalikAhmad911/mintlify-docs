@@ -1,72 +1,119 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Revenue Sol Docs",
+  "description": "Help center and documentation for Revenue Sol, the AI-powered CRM and AI receptionist for home-service and local service businesses.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0052FF",
+    "light": "#5C8DFF",
+    "dark": "#003ECF"
   },
-  "favicon": "/favicon.svg",
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0A0F1E"
+    }
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://revenuesol.com"
+  },
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "getting-started/create-account",
+              "getting-started/onboarding",
+              "getting-started/start-your-trial",
+              "getting-started/dashboard",
+              "getting-started/navigation",
+              "getting-started/mobile-app"
+            ]
+          }
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "href": "https://revenuesol.com",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Pricing",
+          "href": "https://revenuesol.com/pricing",
+          "icon": "tag"
+        },
+        {
+          "anchor": "Live demo",
+          "href": "https://demo.revenuesol.com",
+          "icon": "play"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "label": "Contact support",
+        "href": "mailto:contact@revenuesol.com"
+      },
+      {
+        "label": "Log in",
+        "href": "https://app.revenuesol.com/sign-in"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Start free trial",
+      "href": "https://app.revenuesol.com/sign-up"
     }
+  },
+  "seo": {
+    "indexing": "navigable",
+    "metatags": {
+      "og:site_name": "Revenue Sol Docs",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "keywords": "Revenue Sol, AI receptionist, CRM for home service businesses, missed call text back, field service CRM, help center"
+    }
+  },
+  "search": {
+    "prompt": "Search Revenue Sol docs…"
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity"]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "links": [
+      {
+        "header": "Revenue Sol",
+        "items": [
+          { "label": "Website", "href": "https://revenuesol.com" },
+          { "label": "Pricing", "href": "https://revenuesol.com/pricing" },
+          { "label": "Contact", "href": "https://revenuesol.com/contact" }
+        ]
+      },
+      {
+        "header": "Legal",
+        "items": [
+          { "label": "Privacy", "href": "https://revenuesol.com/privacy" },
+          { "label": "Terms", "href": "https://revenuesol.com/terms" },
+          { "label": "Data deletion", "href": "https://revenuesol.com/data-deletion" }
+        ]
+      }
+    ]
   }
 }
