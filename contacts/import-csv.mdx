@@ -1,0 +1,52 @@
+---
+title: "Import contacts from a CSV file"
+sidebarTitle: "Import a CSV"
+description: "Import your customer list into Revenue Sol from a CSV: supported columns, the 500-row limit per import, how duplicates are skipped, and how to format the file."
+keywords: ["import contacts CSV", "import customers into CRM", "CSV contact import", "move from Jobber to CRM", "bulk import leads"]
+---
+
+Bring your existing customer list into Revenue Sol from a spreadsheet.
+
+## Prepare your file
+
+Save your spreadsheet as a `.csv` file. The first row must be column headers. Revenue Sol reads these columns:
+
+| Column header | What goes in it |
+| --- | --- |
+| `name` (or `full_name`, `full name`) | The contact's name. |
+| `phone` (or `mobile`) | Phone number, ideally with the country code. |
+| `email` | Email address. |
+| `company` | Company name. |
+| `source` | Where they came from. |
+| `tags` | A tag for the contact. |
+| `notes` | Anything else you want to keep. |
+
+Other columns are ignored.
+
+<Warning>
+  Don't use commas inside a value, for example "Austin, TX" in one cell. Commas split the row into columns, so remove them or replace them before you import. This also means you can add only one tag per row in the `tags` column.
+</Warning>
+
+## Import the file
+
+<Steps>
+  <Step title="Open the import">
+    In **Contacts** or **Sales**, click **Import CSV**.
+  </Step>
+  <Step title="Add your file">
+    Drag the file in, or click **browse files**. Files can be up to 10MB.
+  </Step>
+  <Step title="Check the preview">
+    Revenue Sol shows how many rows are ready to import and a preview of the first 10.
+  </Step>
+  <Step title="Import">
+    Click **Import**. You'll see how many were imported and how many duplicates were skipped.
+  </Step>
+</Steps>
+
+## Good to know
+
+- Up to **500 rows** are imported at a time. Split bigger lists into several files.
+- Contacts that already exist are **skipped as duplicates**, so re-importing a file won't create copies.
+- Imported contacts start as new leads in your [sales pipeline](/contacts/sales-pipeline).
+- Your file is read in your browser and isn't stored.

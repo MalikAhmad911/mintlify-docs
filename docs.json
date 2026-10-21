@@ -88,6 +88,18 @@
               "inbox/website-chat-widget",
               "inbox/opt-outs"
             ]
+          },
+          {
+            "group": "Contacts and CRM",
+            "pages": [
+              "contacts/overview",
+              "contacts/add-contact",
+              "contacts/import-csv",
+              "contacts/contact-profile",
+              "contacts/stages-and-tags",
+              "contacts/sales-pipeline",
+              "contacts/export"
+            ]
           }
         ]
       }
